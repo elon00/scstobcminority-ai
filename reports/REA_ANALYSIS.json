@@ -1,0 +1,440 @@
+{
+  "engine": "REA_Reverse_Engineer_Anything",
+  "status": "STRUCTURE_RECONSTRUCTED",
+  "analyzed_files": 144,
+  "manifest": {
+    "Anchor.toml": {
+      "bytes": 1277
+    },
+    "AUTONOMOUS_BLUEPRINT.md": {
+      "bytes": 2044
+    },
+    "Cargo.lock": {
+      "bytes": 65316
+    },
+    "Cargo.toml": {
+      "bytes": 1026
+    },
+    "CLOUD_DEPLOYMENT.md": {
+      "bytes": 2181
+    },
+    "CODE_OF_CONDUCT.md": {
+      "bytes": 992
+    },
+    "CONTRIBUTING.md": {
+      "bytes": 1712
+    },
+    "CORE_PURPOSE.md": {
+      "bytes": 3162
+    },
+    "DEPLOY.md": {
+      "bytes": 1739
+    },
+    "DEVNET_DEPLOYMENT.md": {
+      "bytes": 481
+    },
+    "docker-compose.testnet.yml": {
+      "bytes": 2001
+    },
+    "Dockerfile": {
+      "bytes": 415
+    },
+    "LICENSE": {
+      "bytes": 1113
+    },
+    "netlify.toml": {
+      "bytes": 919
+    },
+    "nginx.conf": {
+      "bytes": 1473
+    },
+    "package-lock.json": {
+      "bytes": 146492
+    },
+    "package.json": {
+      "bytes": 3220
+    },
+    "PROJECT_SUMMARY.md": {
+      "bytes": 4168
+    },
+    "railway.toml": {
+      "bytes": 195
+    },
+    "README.md": {
+      "bytes": 11241
+    },
+    "REALITY_MANIFEST.json": {
+      "bytes": 3119
+    },
+    "SECURITY.md": {
+      "bytes": 4012
+    },
+    "SECURITY_AUDIT.md": {
+      "bytes": 7027
+    },
+    "TESTNET_BLUEPRINT.md": {
+      "bytes": 8471
+    },
+    "TESTNET_DEPLOYMENT.md": {
+      "bytes": 1387
+    },
+    "tsconfig.json": {
+      "bytes": 622
+    },
+    "vercel.json": {
+      "bytes": 382
+    },
+    "WHITEPAPER.md": {
+      "bytes": 23772
+    },
+    ".github\\PULL_REQUEST_TEMPLATE.md": {
+      "bytes": 490
+    },
+    "api\\index.mjs": {
+      "bytes": 179
+    },
+    "app\\Dockerfile": {
+      "bytes": 614
+    },
+    "app\\index.html": {
+      "bytes": 454
+    },
+    "app\\package-lock.json": {
+      "bytes": 439655
+    },
+    "app\\package.json": {
+      "bytes": 1293
+    },
+    "app\\postcss.config.js": {
+      "bytes": 86
+    },
+    "app\\tailwind.config.js": {
+      "bytes": 668
+    },
+    "app\\tsconfig.json": {
+      "bytes": 649
+    },
+    "app\\tsconfig.node.json": {
+      "bytes": 242
+    },
+    "app\\vite.config.ts": {
+      "bytes": 479
+    },
+    "backend\\Dockerfile": {
+      "bytes": 371
+    },
+    "backend\\package-lock.json": {
+      "bytes": 281
+    },
+    "backend\\package.json": {
+      "bytes": 522
+    },
+    "backend\\testnet-deployment.json": {
+      "bytes": 379
+    },
+    "docs\\COLOSSEUM_COPILOT.md": {
+      "bytes": 1779
+    },
+    "docs\\OBSERVED_TESTNET_PROGRAM.md": {
+      "bytes": 2093
+    },
+    "docs\\TOKENOMICS.md": {
+      "bytes": 8135
+    },
+    "public\\actions.json": {
+      "bytes": 196
+    },
+    "reality\\REALITY_SCORECARD.json": {
+      "bytes": 3015
+    },
+    "reality\\URS_EVIDENCE_CERTIFICATE.json": {
+      "bytes": 280
+    },
+    "reality\\URS_SCORECARD.json": {
+      "bytes": 299
+    },
+    "scripts\\audit-crypto.mjs": {
+      "bytes": 7393
+    },
+    "scripts\\autonomous-tech-audit.mjs": {
+      "bytes": 2994
+    },
+    "scripts\\check-branding.mjs": {
+      "bytes": 1740
+    },
+    "scripts\\check-colosseum.mjs": {
+      "bytes": 1276
+    },
+    "scripts\\deploy-all.bat": {
+      "bytes": 1096
+    },
+    "scripts\\deploy-all.sh": {
+      "bytes": 1175
+    },
+    "scripts\\deploy-cloud.sh": {
+      "bytes": 587
+    },
+    "scripts\\deploy-solana.js": {
+      "bytes": 297
+    },
+    "scripts\\generate-urs-certificate.ts": {
+      "bytes": 492
+    },
+    "scripts\\initialize-devnet.mjs": {
+      "bytes": 2299
+    },
+    "scripts\\initialize-testnet.mjs": {
+      "bytes": 2383
+    },
+    "scripts\\one-click-testnet.ps1": {
+      "bytes": 164
+    },
+    "scripts\\one-click-testnet.sh": {
+      "bytes": 255
+    },
+    "scripts\\reality-audit.mjs": {
+      "bytes": 6084
+    },
+    "scripts\\reality-universal.ts": {
+      "bytes": 515
+    },
+    "scripts\\rea_inspector.py": {
+      "bytes": 1485
+    },
+    "scripts\\rsi_engine.py": {
+      "bytes": 2039
+    },
+    "scripts\\test-wallet.ts": {
+      "bytes": 854
+    },
+    "scripts\\write-testnet-evidence.mjs": {
+      "bytes": 4675
+    },
+    "tests\\deployment-evidence.test.mjs": {
+      "bytes": 3739
+    },
+    "tests\\nextgen-integrations.test.mjs": {
+      "bytes": 2496
+    },
+    "tests\\official-nist-vectors.test.ts": {
+      "bytes": 6270
+    },
+    "tests\\reality_check_harness.py": {
+      "bytes": 1250
+    },
+    ".github\\ISSUE_TEMPLATE\\bug_report.md": {
+      "bytes": 557
+    },
+    ".github\\ISSUE_TEMPLATE\\feature_request.md": {
+      "bytes": 486
+    },
+    ".github\\workflows\\autonomous-one-click.yml": {
+      "bytes": 1824
+    },
+    ".github\\workflows\\ci.yml": {
+      "bytes": 4343
+    },
+    ".github\\workflows\\deploy-devnet.yml": {
+      "bytes": 348
+    },
+    ".github\\workflows\\deploy-testnet.yml": {
+      "bytes": 9031
+    },
+    ".github\\workflows\\fullstack-testnet.yml": {
+      "bytes": 4073
+    },
+    ".github\\workflows\\pages.yml": {
+      "bytes": 1561
+    },
+    ".github\\workflows\\pqc-repair-verify.yml": {
+      "bytes": 1438
+    },
+    ".github\\workflows\\qmoosa-rsi-rea-sync.yml": {
+      "bytes": 531
+    },
+    ".github\\workflows\\safe-dependency-repair.yml": {
+      "bytes": 2199
+    },
+    ".github\\workflows\\token-2022-testnet.yml": {
+      "bytes": 3714
+    },
+    "app\\public\\testnet-deployment.json": {
+      "bytes": 379
+    },
+    "app\\src\\App.tsx": {
+      "bytes": 1925
+    },
+    "app\\src\\config.ts": {
+      "bytes": 1179
+    },
+    "app\\src\\main.tsx": {
+      "bytes": 256
+    },
+    "app\\src\\qr.d.ts": {
+      "bytes": 399
+    },
+    "app\\src\\components\\AgentChat.tsx": {
+      "bytes": 8584
+    },
+    "app\\src\\components\\Dashboard.tsx": {
+      "bytes": 9076
+    },
+    "app\\src\\components\\Header.tsx": {
+      "bytes": 1211
+    },
+    "app\\src\\components\\LandingPage.tsx": {
+      "bytes": 48827
+    },
+    "app\\src\\components\\PaymentPanel.tsx": {
+      "bytes": 13558
+    },
+    "app\\src\\context\\BackendWalletContext.tsx": {
+      "bytes": 7492
+    },
+    "app\\src\\styles\\globals.css": {
+      "bytes": 621
+    },
+    "backend\\src\\agent.mjs": {
+      "bytes": 2463
+    },
+    "backend\\src\\auth.mjs": {
+      "bytes": 6424
+    },
+    "backend\\src\\deployment.mjs": {
+      "bytes": 419
+    },
+    "backend\\src\\nextgen.mjs": {
+      "bytes": 4636
+    },
+    "backend\\src\\payments.mjs": {
+      "bytes": 2758
+    },
+    "backend\\src\\providers.mjs": {
+      "bytes": 4992
+    },
+    "backend\\src\\server.mjs": {
+      "bytes": 13857
+    },
+    "backend\\src\\solana.mjs": {
+      "bytes": 3360
+    },
+    "backend\\src\\x402V2.mjs": {
+      "bytes": 9820
+    },
+    "backend\\src\\x402Verifier.mjs": {
+      "bytes": 4243
+    },
+    "backend\\test\\backend.test.mjs": {
+      "bytes": 5639
+    },
+    "backend\\test\\hosted-auth.test.mjs": {
+      "bytes": 956
+    },
+    "backend\\test\\x402-v2.test.mjs": {
+      "bytes": 653
+    },
+    "docs\\reality\\REALITY_AUDIT.md": {
+      "bytes": 5269
+    },
+    "docs\\reality\\URS_EVIDENCE_CERTIFICATE.md": {
+      "bytes": 680
+    },
+    "netlify\\functions\\api.mjs": {
+      "bytes": 13021
+    },
+    "programs\\quantum-custody\\Cargo.toml": {
+      "bytes": 638
+    },
+    "programs\\quantum-custody\\Xargo.toml": {
+      "bytes": 211
+    },
+    "programs\\token\\Cargo.toml": {
+      "bytes": 835
+    },
+    "programs\\quantum-custody\\src\\error.rs": {
+      "bytes": 1348
+    },
+    "programs\\quantum-custody\\src\\lib.rs": {
+      "bytes": 2428
+    },
+    "programs\\quantum-custody\\src\\state.rs": {
+      "bytes": 4827
+    },
+    "programs\\quantum-custody\\src\\instructions\\create_vault.rs": {
+      "bytes": 2024
+    },
+    "programs\\quantum-custody\\src\\instructions\\initialize.rs": {
+      "bytes": 617
+    },
+    "programs\\quantum-custody\\src\\instructions\\mod.rs": {
+      "bytes": 200
+    },
+    "programs\\quantum-custody\\src\\instructions\\rotate_keys.rs": {
+      "bytes": 1188
+    },
+    "programs\\quantum-custody\\src\\instructions\\sign_transaction.rs": {
+      "bytes": 1239
+    },
+    "programs\\token\\src\\lib.rs": {
+      "bytes": 10159
+    },
+    "sdk\\rust\\Cargo.toml": {
+      "bytes": 819
+    },
+    "sdk\\typescript\\package-lock.json": {
+      "bytes": 57714
+    },
+    "sdk\\typescript\\package.json": {
+      "bytes": 1047
+    },
+    "sdk\\typescript\\tsconfig.json": {
+      "bytes": 444
+    },
+    "sdk\\rust\\src\\compliance.rs": {
+      "bytes": 1057
+    },
+    "sdk\\rust\\src\\lib.rs": {
+      "bytes": 1334
+    },
+    "sdk\\rust\\src\\transaction.rs": {
+      "bytes": 853
+    },
+    "sdk\\rust\\src\\vault.rs": {
+      "bytes": 788
+    },
+    "sdk\\rust\\src\\crypto\\dilithium.rs": {
+      "bytes": 2407
+    },
+    "sdk\\rust\\src\\crypto\\kyber.rs": {
+      "bytes": 1237
+    },
+    "sdk\\rust\\src\\crypto\\mod.rs": {
+      "bytes": 3465
+    },
+    "sdk\\rust\\src\\crypto\\sphincs.rs": {
+      "bytes": 1026
+    },
+    "sdk\\typescript\\src\\client.ts": {
+      "bytes": 2091
+    },
+    "sdk\\typescript\\src\\crypto.ts": {
+      "bytes": 6625
+    },
+    "sdk\\typescript\\src\\declarations.d.ts": {
+      "bytes": 615
+    },
+    "sdk\\typescript\\src\\index.ts": {
+      "bytes": 397
+    },
+    "sdk\\typescript\\src\\types.ts": {
+      "bytes": 1010
+    },
+    "sdk\\typescript\\src\\vault.ts": {
+      "bytes": 1074
+    },
+    "src\\integrations\\nextgen.mjs": {
+      "bytes": 4636
+    }
+  },
+  "timestamp": 1794035805
+}
