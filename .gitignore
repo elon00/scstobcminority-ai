@@ -51,3 +51,6 @@ temp/
 deployment-info.json
 token-config.json
 vesting-config.json
+
+# Lean 4 build artifacts
+lean_verify/.lake/
